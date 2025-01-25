@@ -1,7 +1,8 @@
 <?php
 
 require_once 'Achat.php';
-require_once 'Database.php'; // Connexion à la base de données
+require_once '../bdd/Database.php'; // Connexion à la base de données
+
 
 class ControllerAchatForfait {
     private $db;
